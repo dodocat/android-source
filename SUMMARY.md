@@ -19,7 +19,7 @@
   * [Android 平台 64 位构建指导]
   * [已知的问题]
 
-* [开发]
+* [开发](developing.md)
   * [使用 Repo](using-repo.md)
   * [学习 Git](git-resources.md)
   * [添加新设备]
