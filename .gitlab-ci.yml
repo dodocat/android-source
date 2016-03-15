@@ -1,0 +1,13 @@
+before_script:
+    - gitbook -V
+build:
+  script:
+    - gitbook build
+deploy:
+    script:
+      - gitbook build
+      - if [ -d $WWW_DATA ] ; then rm -r $WWW_DATA; fi;
+      - cp -r ./_book $WWW_DATA
+    type: deploy
+    only:
+      - master
