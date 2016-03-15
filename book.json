@@ -1,0 +1,10 @@
+{
+  "title": "Android 源码开发手册",
+  "description": "Android 系统源码开发手册",
+  "plugins": ["-sharing"],
+  "links": {
+    "sidebar": {
+      "Issues": "http://git.dream/team/android-source/issues"
+    }
+  }
+}
